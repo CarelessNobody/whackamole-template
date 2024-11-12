@@ -1,9 +1,6 @@
 import pygame
 import random
 
-from pygame.examples.cursors import image
-
-
 def pick_random_spot():
     row = random.randrange(0, 16)
     col = random.randrange(0, 20)
